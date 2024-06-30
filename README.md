@@ -22,8 +22,8 @@ Este proyecto implementa un servidor con Express para gestionar información de 
 ## INSTALACION - CLONAR EL REPOSITORIO
 
 ```bash
-git clone https://github.com/tu_usuario/proyecto-gestion-paises-clubes.git
-cd PROYECTO6
+git clone https://github.com/paaardo/PROYECTO6-IKERPARDO.git
+cd PROYECTO6-IKERPARDO
 ```
 
 ## ENDPOINTS
