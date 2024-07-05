@@ -2,8 +2,7 @@ const mongoose = require('mongoose')
 const Pais = require('../models/pais')
 const Club = require('../models/club')
 
-const mongoURI =
-  'mongodb+srv://ikerpardo53:J9SiGpQZVYOcvHxj@cluster0.grb92m2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+const mongoURI = process.env.MONGO_URI
 mongoose
   .connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('MongoDB conectado'))
